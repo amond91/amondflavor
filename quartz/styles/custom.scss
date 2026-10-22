@@ -259,8 +259,19 @@ body[data-slug="index"] .content-meta {
     height: 100dvh;
     overflow-y: auto;
   }
-  .explorer .explorer-ul { padding: 0 1rem; }
-  .explorer .explorer-ul li > a { display: block; padding: 0.6rem 0; font-size: 1rem; }
+  // 항목은 화면 폭을 다 쓰는 큰 줄 — 글씨를 키우고 줄마다 구분선 (10-22 amond: 「더 넓게」)
+  .explorer .explorer-ul { box-sizing: border-box; width: 100%; padding: 0 1.25rem; }
+  .explorer .explorer-ul li { margin: 0; }
+  .explorer .explorer-ul li > a {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--lightgray);
+    opacity: 1;
+  }
+  .explorer .explorer-ul::after { display: none; }   // 맨 아래 흐림 효과 — 마지막 항목이 회색으로 보였다
   .explorer .explorer-ul::before {   // 패널 맨 위 제목
     content: "분류";
     display: block;
@@ -269,4 +280,6 @@ body[data-slug="index"] .content-meta {
     color: var(--gray);
     margin-bottom: 0.25rem;
   }
+  // 머리줄: 사이트 이름이 ☰·검색 아이콘보다 아래로 처져 있었다 — 같은 높이 한가운데에 맞춘다
+  .left.sidebar .page-title { margin: 0; font-size: 1.15rem; line-height: 34px; }
 }
