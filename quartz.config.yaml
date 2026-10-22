@@ -144,9 +144,15 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:  # 좌측 메뉴 = 분류 5개만 (content/ 바로 아래 <분류>.base · 글 114건이 든 posts 폴더 · 홈용 pinned.base · tags 는 숨김). 순서는 MBX PIN_CATEGORIES 순
+      title: 분류
+      folderDefaultState: open
+      useSavedState: false
+      filterFn: '(node) => node.slugSegment !== "tags" && node.slugSegment !== "posts" && !node.slugSegment.startsWith("pinned")'
+      sortFn: '(a, b) => { const o = ["AI 에이전트·모델", "기술경영·산업", "연구·과학", "경영·조직·일", "기타"]; const i = (n) => { const k = o.indexOf(n.displayName); return k < 0 ? 99 : k }; return i(a) - i(b) }'
     layout:
       position: left
-      priority: 50
+      priority: 22  # 검색줄(20) 아래 · 최근 글(25) 위
   - source: "@quartz-community/graph"
     enabled: false
     layout:

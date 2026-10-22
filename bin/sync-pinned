@@ -7,6 +7,8 @@
   - 기본: 전부 싣는다. 원본 노트 frontmatter 에 `publish: false` 가 있으면 싣지 않는다.
   - 메일 출처(PUBLIC_SOURCES 밖)는 계정 이름 대신 「뉴스레터」로 보이고 메일 링크가 빠진다.
   - 주입 의심(`injection: true`) 노트는 싣지 않는다.
+  - MBX Hub 에서 Pin 을 푼 글(news.json 상태가 pinned 가 아님)은 내린다 — 블로그 = 지금의 Pin 목록 (2026-10-22 amond).
+    MBX 노트 파일은 남는다. 다시 Pin 하면 다시 실린다. 자동 Pin(80점 이상)도 손 Pin 과 똑같이 싣는다.
   - 「수집 때 요약」(원문 발췌)과 메일 링크는 빼고 싣는다.
 
 사용:
@@ -24,6 +26,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "posts"
 DEFAULT_SRC = Path(os.environ.get("PIN_SRC", Path.home() / "MyProjects/MBX_digests/pinned"))
+NEWS = Path(os.environ.get("PIN_NEWS", Path.home() / ".local/state/mbx/news.json"))  # MBX 읽음 상태 (Mac mini 에만 있다)
 
 PUBLIC_SOURCES = {"GeekNews"}
 PRIVATE_SOURCE_LABEL = "뉴스레터"  # 메일 출처는 계정 이름 대신 이것으로 보인다
@@ -50,8 +53,19 @@ def split_frontmatter(text):
     return meta, text[end + 5:]
 
 
-def decide(meta):
+def load_status():
+    """키 → MBX 상태. 파일이 없으면 None — 그때는 상태로 거르지 않는다(통째로 내려가지 않게)."""
+    try:
+        return {k: v.get("status") for k, v in json.loads(NEWS.read_text(encoding="utf-8")).items()}
+    except (OSError, ValueError) as e:
+        print(f"⚠️ news.json 을 읽지 못해 Pin 해제 여부를 보지 않는다: {e}", file=sys.stderr)
+        return None
+
+
+def decide(meta, status=None):
     """싣는지와 그 이유."""
+    if status is not None and meta.get("key") in status and status[meta["key"]] != "pinned":
+        return False, "Pin 해제됨"
     if meta.get("publish") is False:
         return False, "publish: false"
     if meta.get("injection") is True:
@@ -140,9 +154,10 @@ def main():
         sys.exit(f"원본 폴더가 없다: {args.src}")
 
     picked, skipped = [], {}
+    status = load_status()
     for path in sorted(args.src.glob("*.md")):
         meta, body = split_frontmatter(path.read_text(encoding="utf-8"))
-        ok, why = decide(meta)
+        ok, why = decide(meta, status)
         if ok:
             picked.append((path, meta, body))
         else:

@@ -227,3 +227,14 @@ hr {
 body[data-slug="index"] .content-meta {
   display: none;
 }
+
+// 좌측 「분류」 메뉴 (Explorer) — 항목이 5개뿐이라 사이드바 높이에 눌려 잘리지 않게 다 펼친다 (2026-10-22)
+.left.sidebar .explorer { flex-shrink: 0; }
+.left.sidebar .explorer .explorer-content,
+.left.sidebar .explorer .explorer-ul { overflow: visible; }
+.left.sidebar .explorer .explorer-ul::after { display: none; }
+
+// 휴대폰 폭에서는 「최근 글」을 숨긴다 — 머리줄(☰·제목·검색)에 끼어 가로가 넘쳤다(10-22 공개본부터). 분류는 ☰ 메뉴에 있다
+@media all and (max-width: 800px) {
+  .left.sidebar .recent-notes { display: none; }
+}

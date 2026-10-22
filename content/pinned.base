@@ -1,5 +1,6 @@
 # 📌 글 목록 — 홈(index.md)에 끼워 넣는 카드 보기. 탭 하나가 분류 하나다.
 # 🔴 분류 이름은 MBX `bin/mbx` 의 PIN_CATEGORIES 와 같아야 한다 (거기서 정해진다).
+#    바꾸면 같은 폴더의 <분류>.base 5개(좌측 메뉴 페이지)와 quartz.config.yaml explorer 의 sortFn 도 같이 바꾼다.
 filters:
   and:
     - file.inFolder("posts")
