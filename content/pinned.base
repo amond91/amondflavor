@@ -1,0 +1,65 @@
+# 📌 글 목록 — 홈(index.md)에 끼워 넣는 카드 보기. 탭 하나가 분류 하나다.
+# 🔴 분류 이름은 MBX `bin/mbx` 의 PIN_CATEGORIES 와 같아야 한다 (거기서 정해진다).
+filters:
+  and:
+    - file.inFolder("posts")
+    - file.hasProperty("category")
+properties:
+  description:
+    displayName: 요약
+  date:
+    displayName: 날짜
+  category:
+    displayName: 분류
+views:
+  - type: cards
+    name: 최신
+    order: [description, category, date]
+    sort:
+      - property: date
+        direction: DESC
+  - type: cards
+    name: AI 에이전트·모델
+    filters:
+      and:
+        - category == "AI 에이전트·모델"
+    order: [description, date]
+    sort:
+      - property: date
+        direction: DESC
+  - type: cards
+    name: 기술경영·산업
+    filters:
+      and:
+        - category == "기술경영·산업"
+    order: [description, date]
+    sort:
+      - property: date
+        direction: DESC
+  - type: cards
+    name: 연구·과학
+    filters:
+      and:
+        - category == "연구·과학"
+    order: [description, date]
+    sort:
+      - property: date
+        direction: DESC
+  - type: cards
+    name: 경영·조직·일
+    filters:
+      and:
+        - category == "경영·조직·일"
+    order: [description, date]
+    sort:
+      - property: date
+        direction: DESC
+  - type: cards
+    name: 기타
+    filters:
+      and:
+        - category == "기타"
+    order: [description, date]
+    sort:
+      - property: date
+        direction: DESC

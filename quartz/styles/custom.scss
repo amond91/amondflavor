@@ -1,3 +1,229 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// 깔끔한 미니멀 — 글자 한 단계 작게 · 굵기는 덜 · 장식은 선 하나까지 (2026-10-22)
+
+html {
+  font-size: 15px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+article {
+  line-height: 1.75;
+  font-size: 1rem;
+  letter-spacing: -0.005em;
+
+  & p,
+  & li {
+    line-height: 1.75;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: $semiBoldWeight;
+  letter-spacing: -0.015em;
+}
+
+.page article > h1,
+.page .article-title {
+  font-size: 1.6rem;
+  line-height: 1.35;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin-top: 2.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+// 머리 인용(📌 날짜 · 출처 · 원문) — 상자 대신 얇은 왼쪽 선
+blockquote {
+  margin: 1rem 0;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  border-left: 2px solid var(--lightgray);
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.content-meta,
+.page article .content-meta {
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+
+// 사이트 제목
+.page-title {
+  font-size: 1.25rem;
+  font-weight: $semiBoldWeight;
+  letter-spacing: -0.01em;
+
+  & a {
+    color: var(--dark);
+  }
+}
+
+// 왼쪽 「최근 글」 — 제목은 보통 굵기, 날짜·태그는 작게
+.recent-notes {
+  & > h3 {
+    font-size: 0.8rem;
+    font-weight: $semiBoldWeight;
+    color: var(--gray);
+    text-transform: none;
+  }
+
+  & .recent-li {
+    margin: 0.9rem 0 1.1rem;
+  }
+
+  & .section h3,
+  & .section a.internal {
+    font-size: 0.92rem;
+    font-weight: 500;
+    line-height: 1.45;
+    color: var(--dark);
+  }
+
+  & .meta {
+    font-size: 0.78rem;
+    color: var(--gray);
+  }
+}
+
+// 태그 — 알약 배경을 빼고 글자만
+a.internal.tag-link {
+  background: none;
+  padding: 0;
+  margin-right: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: $normalWeight;
+  color: var(--gray);
+
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+ul.tags {
+  gap: 0;
+}
+
+// 본문 링크 — 배경 칠 대신 밑줄
+article a.external,
+article a.internal:not(.tag-link):not(.bases-card) {
+  background: none;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--lightgray);
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration-color: var(--secondary);
+  }
+}
+
+hr {
+  border-color: var(--lightgray);
+}
+
+// 경로 표시(Home › posts › 제목) — 회색 작게
+.breadcrumb-container {
+  font-size: 0.8rem;
+
+  & .breadcrumb-element a,
+  & .breadcrumb-element p {
+    color: var(--gray);
+    font-weight: $normalWeight;
+  }
+}
+
+// 홈 카드 보기(Bases) — 제목 · 요약 3줄 · 분류와 날짜 한 줄. 라벨과 건수 문구는 숨긴다
+.bases-view-meta {
+  display: none;
+}
+
+.bases-view-tabs button,
+.bases-view-tabs .bases-view-tab {
+  font-size: 0.8rem;
+}
+
+.bases-cards .bases-card {
+  text-decoration: none;
+  color: var(--darkgray);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  box-shadow: none;
+  background: transparent;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: var(--secondary);
+  }
+
+  & .bases-card-title {
+    font-size: 0.95rem;
+    font-weight: $semiBoldWeight;
+    line-height: 1.45;
+    color: var(--dark);
+  }
+
+  & .bases-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+  }
+
+  & .bases-card-row {
+    display: block;
+    padding: 0;
+    border: none;
+  }
+
+  & .bases-card-label {
+    display: none;
+  }
+
+  & .bases-card-value,
+  & .bases-card-value * {
+    font-size: 0.75rem;
+    font-weight: $normalWeight;
+    color: var(--gray);
+    text-decoration: none;
+    text-align: left;
+  }
+
+  & .bases-card-row:first-child {
+    flex-basis: 100%;
+    margin-bottom: 0.3rem;
+
+    & .bases-card-value,
+    & .bases-card-value * {
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: var(--darkgray);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}
+
+// 홈 부제 「pinned by Amond」
+.site-subtitle {
+  margin: -0.4rem 0 1.2rem;
+  font-size: 0.9rem;
+  color: var(--gray);
+  letter-spacing: 0.01em;
+}
+
+// 홈에서는 날짜·읽기 시간 줄을 숨긴다 — 제목 바로 아래 부제가 오게
+body[data-slug="index"] .content-meta {
+  display: none;
+}
