@@ -228,13 +228,45 @@ body[data-slug="index"] .content-meta {
   display: none;
 }
 
-// 좌측 「분류」 메뉴 (Explorer) — 항목이 5개뿐이라 사이드바 높이에 눌려 잘리지 않게 다 펼친다 (2026-10-22)
-.left.sidebar .explorer { flex-shrink: 0; }
-.left.sidebar .explorer .explorer-content,
-.left.sidebar .explorer .explorer-ul { overflow: visible; }
-.left.sidebar .explorer .explorer-ul::after { display: none; }
+// 좌측 「분류」 메뉴 (Explorer) — 2026-10-22
+//   제목은 아래 「최근 글」 과 같은 작은 회색 글씨 + 오른쪽 화살표 한 줄. 위의 h2 설정(큰 글씨·위 여백)이 여기 걸리면
+//   버튼이 55px 이 돼 화살표가 제목 위로 밀리고, 접었을 때(높이 한 줄) 버튼까지 잘려 다시 펼 수 없었다.
+.explorer .title-button {
+  justify-content: flex-start;
+  gap: 0.35rem;
+  h2 { margin: 0; font-size: 12px; font-weight: 600; color: var(--gray); line-height: 1.5; }
+  svg { width: 10px; height: 10px; color: var(--gray); }
+}
+@media all and (min-width: 800px) {
+  // 항목이 5개뿐이라 사이드바 높이에 눌려 잘리지 않게 다 펼친다 (휴대폰은 ☰ 패널이라 그대로 둔다)
+  .left.sidebar .explorer:not(.collapsed) { flex-shrink: 0; }
+  .left.sidebar .explorer .explorer-content,
+  .left.sidebar .explorer .explorer-ul { overflow: visible; }
+  .left.sidebar .explorer .explorer-ul::after { display: none; }
+}
 
 // 휴대폰 폭에서는 「최근 글」을 숨긴다 — 머리줄(☰·제목·검색)에 끼어 가로가 넘쳤다(10-22 공개본부터). 분류는 ☰ 메뉴에 있다
 @media all and (max-width: 800px) {
   .left.sidebar .recent-notes { display: none; }
+}
+
+// 휴대폰 ☰ 분류 패널 — 기본값은 부모 여백만큼 오른쪽으로 밀려 가로가 15px 넘쳤다. 화면에 딱 맞추고 누르기 쉽게 줄 간격을 넓힌다
+@media all and (max-width: 800px) {
+  .explorer .explorer-content {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    overflow-y: auto;
+  }
+  .explorer .explorer-ul { padding: 0 1rem; }
+  .explorer .explorer-ul li > a { display: block; padding: 0.6rem 0; font-size: 1rem; }
+  .explorer .explorer-ul::before {   // 패널 맨 위 제목
+    content: "분류";
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 0.25rem;
+  }
 }
