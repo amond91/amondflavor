@@ -1,0 +1,24 @@
+#!/bin/bash
+# 매일 갱신 — pinned 노트를 다시 옮기고, 글이 바뀌었으면 커밋·push 한다. push 하면 GitHub Actions 가 배포한다.
+#   PIN_TEST=1 bin/publish  → 커밋하지 않고 push 권한만 확인한다(git push --dry-run)
+set -euo pipefail
+cd "$(dirname "$0")/.."
+export PATH="/opt/homebrew/bin:/usr/bin:/bin:$PATH"
+
+echo "── $(date '+%F %T') publish"
+bin/sync-pinned
+
+if [ "${PIN_TEST:-}" = "1" ]; then
+  git push --dry-run origin main && echo "push 권한 확인 ✅"
+  exit 0
+fi
+
+git add -A content/posts
+if git diff --cached --quiet; then
+  echo "바뀐 글 없음"
+  exit 0
+fi
+n=$(git diff --cached --name-only | wc -l | tr -d ' ')
+git commit -q -m "글 갱신 $(date +%F) (${n}건)"
+git push -q origin main
+echo "push ✅ (${n}건) — 배포는 GitHub Actions"
