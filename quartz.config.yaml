@@ -4,7 +4,9 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics: null  # GoatCounter 계정을 만든 뒤 { provider: goatcounter, websiteId: <id> } 로 바꾼다
+  analytics:  # 조회수 — https://amondflavor.goatcounter.com (10-22 amond 가입)
+    provider: goatcounter
+    websiteId: amondflavor
   locale: ko-KR
   baseUrl: amond91.github.io/amondflavor
   ignorePatterns:
