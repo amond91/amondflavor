@@ -1,11 +1,11 @@
 ---
 title: "How to engage key stakeholders from the start: A leader’s guide"
 date: "2026-10-19"
-description: "McKinsey 'Leading Off' 뉴스레터의 이번 호 제목은 '처음부터 핵심 이해관계자를 참여시키는 법: 리더를 위한 가이드'이며, 프리헤더 문구는 'Pass the first test'입니다. 수신된 원문은 HTML 스타일시트와 추적 링크뿐이고 본문이 잘려 있어 구체적인 내용은 확인할 수 없습니다."
+description: "McKinsey Leading Off 뉴스레터로, 신임 CEO가 초기에 모멘텀을 만들려면 직원·이사회·투자자·규제기관·언론 등 핵심 이해관계자와의 관계를 첫날부터 구축해야 한다는 내용입니다. 이해관계자 커뮤니케이션 4단계 접근, 지정학 대응 5대 과제, 편향 극복법 등 여러 꼭지가 묶여 있습니다."
 category: "경영·조직·일"
-tags: ["McKinsey", "Leading-Off", "이해관계자-참여", "리더십", "변화관리"]
+tags: ["CEO-transition", "stakeholder-engagement", "리더십", "geopolitics", "succession-planning", "authority-bias"]
 source: "뉴스레터"
-coverage: "summary-only"
+coverage: "full"
 ---
 
 > 📌 2026-10-19 · 뉴스레터
@@ -13,17 +13,23 @@ coverage: "summary-only"
 
 ## 한 줄 요약
 
-McKinsey 'Leading Off' 뉴스레터의 이번 호 제목은 '처음부터 핵심 이해관계자를 참여시키는 법: 리더를 위한 가이드'이며, 프리헤더 문구는 'Pass the first test'입니다. 수신된 원문은 HTML 스타일시트와 추적 링크뿐이고 본문이 잘려 있어 구체적인 내용은 확인할 수 없습니다.
+McKinsey Leading Off 뉴스레터로, 신임 CEO가 초기에 모멘텀을 만들려면 직원·이사회·투자자·규제기관·언론 등 핵심 이해관계자와의 관계를 첫날부터 구축해야 한다는 내용입니다. 이해관계자 커뮤니케이션 4단계 접근, 지정학 대응 5대 과제, 편향 극복법 등 여러 꼭지가 묶여 있습니다.
 
 ## 핵심
 
-- 제목은 'How to engage key stakeholders from the start: A leader's guide'이고 발신은 McKinsey Leading Off(publishing@email.mckinsey.com)입니다.
-- 프리헤더(미리보기) 문구는 'Pass the first test'로, 이해관계자 참여 초기에 첫 관문을 통과해야 한다는 취지로 보이지만 본문으로 확인되지는 않습니다.
-- 받아 온 원문은 CSS 스타일, 클릭 추적용 투명 픽셀 링크, 잘린 이미지 태그까지만 있고 기사 본문 텍스트는 없습니다.
-- 따라서 이해관계자를 언제·어떻게 참여시키는지에 대한 구체적 방법론, 수치, 사례는 원문에서 확인되지 않았습니다.
+- 신임 CEO에 대한 압박이 커지고 있습니다. 원문에 따르면 평균 CEO 재임 기간은 사상 최저로 떨어졌고, S&P 1500 기업에서 C-suite 전환을 잘못 관리하면 연간 약 1조 달러의 시가총액이 사라집니다.
+- McKinsey의 Blair Epstein, Carolyn Dewar, Richard Steele 등은 이해관계자 커뮤니케이션을 4가지로 제시합니다. (1) 경청 투어, 기대 분석, 동료 네트워크로 CEO 역할을 외부 세계와의 가교로 확장 (2) 핵심 메시지를 설득력 있게 전할 고유한 개인 내러티브 개발 (3) 팀원을 메시지 전파 대사(ambassador)로 육성 (4) 이해관계자 참여를 일상 운영 모델에 내재화하고 시간·에너지 관리.
+- 지정학적 혼란을 사업 기회로 바꾸는 5가지 전략 과제가 있습니다(Kurt Strovink 등). 자체 지정학 'house view' 구축, 정책결정자 등 외부 이해관계자와 협력해 회사의 외부 어젠다 형성, 조직·운영 회복탄력성 강화 등이 포함됩니다.
+- Scott Keller는 신임 CEO의 맹점으로 조직문화 변화 능력에 대한 과신을 꼽습니다. "The soft stuff—influencing behavior change at scale—is the hard stuff"라는 말과 함께, 조직을 정렬·동원하는 어려움과 개인 효과성 관리를 과소평가한다고 지적합니다.
+- Prudential Financial의 Charles Lowrey 전 CEO는 2018년 CEO 취임 한 달 전 이사회에 후임 후보와 경력 경로를 발표했고, 후보들에게 리더십 개발 기회를 주며 이사회와 진행 상황을 논의했다고 합니다(Inside the Strategy Room 팟캐스트).
+- egocentric anchoring(자기 관점을 타인에게 투영)과 authority bias(리더에게 과도하게 순응)를 경계해야 합니다. 가정이 조직 전체에 맞는지 자문하고 반대 의견을 장려할 것을 권합니다(Bias Busters, Richard Steele·Carmen James).
 
 ## 자세히
 
-수신된 내용은 이메일 HTML의 헤더 부분(스타일 정의, 숨은 프리헤더, 봇 클릭 방지용 1x1 픽셀 링크)이며, 본문이 시작되는 지점에서 잘려 있습니다. 수집 단계 요약에도 본문이 HTML 서식뿐이라 세부 내용을 확인하지 못했다고 적혀 있습니다.
+이번 호는 'A CEO for All Seasons: Mastering the Cycles of Leadership' 책의 관점에서 CEO 여정 초기 단계를 다룹니다. 제목 '처음부터 핵심 이해관계자를 참여시키는 법'과 직접 관련된 중심 꼭지는 'Nail your first engagements'이며, 나머지(지정학 5대 과제, 인용문, 후계 계획 인터뷰, 편향 관련 글)는 신임 CEO라는 같은 주제 아래 묶인 보조 꼭지입니다.
 
-세부 내용은 메일의 원문 링크나 McKinsey 웹사이트에서 직접 확인해야 합니다.
+본문은 각 주제의 요약 수준이며, 4단계 접근이나 5대 과제의 세부 내용은 원문 링크된 McKinsey 기사에서 확인해야 합니다. 마무리 문장은 "Lead by building stakeholder relationships from day one."입니다.
+
+## 왜 골랐나
+
+외부 이해관계자·정책결정자와의 협력으로 회사의 외부 어젠다를 형성한다는 대목은 기술정책 및 기술경영 연구의 이해관계자 관점과 약하게 맞닿습니다. 다만 내용이 CEO 리더십 일반론이어서 연결은 제한적입니다.

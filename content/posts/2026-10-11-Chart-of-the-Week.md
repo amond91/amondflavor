@@ -1,11 +1,11 @@
 ---
 title: "Chart of the Week"
 date: "2026-10-11"
-description: "McKinsey 'Chart of the Week' 뉴스레터 메일이지만, 입력된 원문이 HTML 스타일 코드와 추적 링크 부분에서 잘려 이번 주 차트의 주제와 내용을 확인할 수 없다."
+description: "McKinsey Chart of the Week의 이번 주 주제는 뷰티 브랜드의 스케일업이다. 지난 20년 안에 창업한 뷰티 브랜드 중 지난해 매출 10억 달러를 넘긴 곳은 7곳뿐이며, 억대 브랜드로 가려면 기존 성공 공식이 소진되는 시점을 예측해 리포뮬레이션해야 한다고 본다."
 category: "경영·조직·일"
-tags: ["McKinsey", "Chart-of-the-Week", "뉴스레터", "브랜드"]
+tags: ["McKinsey", "뷰티-브랜드", "스케일업", "Chart-of-the-Week", "브랜드-성장"]
 source: "뉴스레터"
-coverage: "summary-only"
+coverage: "partial"
 ---
 
 > 📌 2026-10-11 · 뉴스레터
@@ -13,11 +13,13 @@ coverage: "summary-only"
 
 ## 한 줄 요약
 
-McKinsey 'Chart of the Week' 뉴스레터 메일이지만, 입력된 원문이 HTML 스타일 코드와 추적 링크 부분에서 잘려 이번 주 차트의 주제와 내용을 확인할 수 없다.
+McKinsey Chart of the Week의 이번 주 주제는 뷰티 브랜드의 스케일업이다. 지난 20년 안에 창업한 뷰티 브랜드 중 지난해 매출 10억 달러를 넘긴 곳은 7곳뿐이며, 억대 브랜드로 가려면 기존 성공 공식이 소진되는 시점을 예측해 리포뮬레이션해야 한다고 본다.
 
 ## 핵심
 
-- 본문에는 CSS 스타일, 반응형 레이아웃 코드, 클릭 추적용 1x1 픽셀 링크만 있고 차트나 기사 텍스트는 없다.
-- 확인되는 유일한 내용 단서는 숨겨진 프리헤더 문구 'Build a billion-dollar brand'로, 이번 호 주제가 브랜드 구축과 관련 있을 가능성만 시사한다.
-- 발신자는 publishing@email.mckinsey.com 이고 제목은 'Chart of the Week'다.
-- 차트의 수치, 출처, 결론은 원문에 없어 요약할 수 없다. 메일 원본이나 McKinsey 웹페이지에서 직접 확인해야 한다.
+- 글로벌 뷰티 업계에는 그 어느 때보다 많은 신규 진입자와 자본이 몰렸다. 그런데도 최근 20년 안에 창업해 지난해 매출 10억 달러를 넘긴 뷰티 브랜드는 7곳뿐이다.
+- McKinsey의 Alexis Wolfer, Kristi Weaver, Sara Hudson과 공저자들은 매출 7,000만 달러를 뷰티 브랜드가 소규모 브랜드에서 스케일업으로 넘어가는 첫 의미 있는 문턱으로 본다.
+- 7,000만 달러 문턱에 도달한 브랜드는 220개다. 이 중 2억 5,000만 달러 매출을 넘긴 브랜드는 60개였다.
+- 10억 달러 고지에 오를 가능성이 큰 브랜드는 기존의 성공 공식이 언제 수명을 다할지 예견하고 그 시점에 리포뮬레이션하는 브랜드일 수 있다고 한다.
+- 이 내용은 McKinsey 기사 'Billion-dollar beauty: The odds of scaling a breakout brand'에서 가져온 것이다.
+- 그 밖의 꼭지: 지난주 차트는 2026년 호르무즈 해협 위기를 다른 주요 에너지 공급 차질과 구분해 다뤘고(Humayun Tai 등), 10월 15일에는 Michael Chui와 Roger Roberts가 Technology Trends Outlook 2026 보고서를 주제로 McKinsey Live를 진행한다.
