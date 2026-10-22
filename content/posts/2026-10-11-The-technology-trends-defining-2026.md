@@ -1,34 +1,41 @@
 ---
 title: "The technology trends defining 2026"
 date: "2026-10-11"
-description: "McKinsey Highlights 2026년 10월호 뉴스레터로, 대표 기사는 3개 범주(AI 혁명, 컴퓨팅·연결성 프런티어, 첨단 엔지니어링)에 걸친 14개 기술 트렌드를 다루는 'McKinsey Technology Trends Outlook 2026'이다. 메일에는 14개 트렌드의 개별 내용이 없고 소개 문구와 다른 기사 링크만 담겨 있다."
+description: "McKinsey Technology Trends Outlook 2026은 2026년을 규정하는 14개 기술 트렌드를 AI 혁명, 컴퓨트·연결성 프런티어, 첨단 엔지니어링의 세 범주로 분석한다. 기술의 무게중심이 화면 속에서 물리 세계로 옮겨가 전력, 칩, 로봇, 위성이 핵심이 되었고, 전력과 인력 같은 병목이 AI 확산의 제약이라고 주장한다."
 category: "기술경영·산업"
-tags: ["McKinsey-Technology-Trends-Outlook-2026", "기술-트렌드", "AI-운영-모델", "agentic-transformation", "뉴스레터"]
+tags: ["McKinsey-Technology-Trends-Outlook-2026", "physical-AI", "agentic-AI", "AI-인프라와-전력", "맞춤형-반도체", "기술-트렌드-지수화"]
 source: "뉴스레터"
-coverage: "summary-only"
+coverage: "partial"
 ---
 
 > 📌 2026-10-11 · 뉴스레터
-> 근거: 메일 본문
+> 근거: 링크 기사(브라우저) + 메일 본문
 
 ## 한 줄 요약
 
-McKinsey Highlights 2026년 10월호 뉴스레터로, 대표 기사는 3개 범주(AI 혁명, 컴퓨팅·연결성 프런티어, 첨단 엔지니어링)에 걸친 14개 기술 트렌드를 다루는 'McKinsey Technology Trends Outlook 2026'이다. 메일에는 14개 트렌드의 개별 내용이 없고 소개 문구와 다른 기사 링크만 담겨 있다.
+McKinsey Technology Trends Outlook 2026은 2026년을 규정하는 14개 기술 트렌드를 AI 혁명, 컴퓨트·연결성 프런티어, 첨단 엔지니어링의 세 범주로 분석한다. 기술의 무게중심이 화면 속에서 물리 세계로 옮겨가 전력, 칩, 로봇, 위성이 핵심이 되었고, 전력과 인력 같은 병목이 AI 확산의 제약이라고 주장한다.
 
 ## 핵심
 
-- 대표 기사 'The technology trends defining 2026'은 Michael Chui, Roger Roberts, Tanguy Catlin이 14개 기술 트렌드의 최신 혁신과 사업·사회에 미칠 영향을 다룬다. 트렌드는 AI 혁명, 컴퓨팅·연결성 프런티어, 첨단 엔지니어링의 세 범주로 나뉜다.
-- 'McKinsey Technology Trends Outlook 2026'은 연례 보고서로, 기술 혁신·발전·인재(talent) 트렌드와 그 잠재적 영향을 짚는다고 소개된다.
-- AI 가치의 열쇠로 운영 모델(operating model)을 꼽는다. 새 연구에 따르면 AI 전환에 성공한 조직은 하나의 '최선' 모델을 고르기보다 의도적인 설계 선택을 하고 이를 잘 실행한다.
-- 그 밖의 꼭지로 다음이 있다: 'Winning'(탁월한 선수·팀·코치의 8가지 원칙), Global Farmer Insights 2026(농가 5,500명 설문, 지출에 선별적이며 AI가 확산 중이지만 구매는 신뢰하는 조언자에 의존), 'Strategy in the age of arenas'(고성장 산업 군이 경쟁 구도를 바꾸므로 전략을 두 가지 면에서 재고해야 함).
-- 'The speed problem' 기사는 공격자는 기계 속도로 움직이는데 조직은 위원회 속도로 결정한다고 지적하며, 다른 운영 모델과 경영진의 확고한 리더십이 필요하다고 한다. 'The agentic transformation office' 기사는 성공적인 전환에 더는 중앙의 대규모 인력이 필요 없다고 한다.
-- 'ALSO New' 목록에는 'Democratized superintelligence is coming', 'The $2.3 trillion horizon: How AI is rewriting the semiconductor story', 'Geopolitics and the geometry of global trade: September 2026 update', 'Global Energy Perspective 2026', 'Smart rail infrastructure' 등의 제목이 있다.
-- 10월 15일 Michael Chui와 Roger Roberts가 Technology Trends Outlook 2026을 주제로 McKinsey Live 토론을 진행한다고 안내한다.
+- 14개 트렌드는 작년보다 범위를 넓혀 agentic software development와 AI for scientific discovery and engineering 두 영역을 새로 추가했다. 이 중 4개가 AI 특화 트렌드이고, AI는 나머지 10개도 뒷받침하고 증폭한다고 한다.
+- 다섯 가지 주제를 제시한다. (1) agentic AI와 physical AI, (2) AI의 속도가 곧 장애물이라는 점, (3) AI 때문에 사이버보안의 시간 완충이 사라진 점, (4) 용도별 맞춤 칩의 부상, (5) 전력이 AI 확산의 제약이라는 점이다.
+- 물리 세계로의 이동: 2025년 에너지 기술에만 약 $200 billion이 투자됐고 AI 인프라 지출은 1년 만에 두 배가 되었다. 원문은 '누가 하드웨어를 만들고 숙련 인력을 모으느냐'가 핵심 질문이라고 말한다.
+- 전력 병목: 미국 AI 데이터센터의 전력 소비는 2030년까지 현재의 California 전체 소비량과 같아질 것으로 전망된다. 변압기 납기는 많은 시장에서 2년을 넘고, 2,500 GW 이상의 에너지 프로젝트가 계통 연결 대기열에 묶여 있다.
+- 칩: 추론(inference)이 학습(training)을 제치고 주된 AI 워크로드가 되고 있다. Amazon, Google, Meta, Microsoft는 반도체 기업과 맞춤 실리콘을 공동 설계하며, 일부는 외부 판매도 모색한다. 원문은 이를 '고객이 대안 공급자가 되고 있다'고 표현한다.
+- 투자: 2026년 상반기 투자액을 연간으로 외삽한 결과, agentic software development, AI 인프라·모델 아키텍처, AI for scientific discovery and engineering, 우주, 로봇의 5개 트렌드가 2025년 대비 2배 넘는 투자를 받을 전망이다. advanced connectivity를 제외한 모든 트렌드가 전년보다 늘어난다.
+- 보안: 사이버보안 취약점의 4분의 3 이상이 공개 시점에 이미 익스플로잇이 존재하는 zero day로 분류된다. 원문은 Anthropic이 Claude Mythos Preview가 수천 개의 잠재 결함을 찾아내자 공개하지 않고 Project Glasswing으로 제한된 방어자 그룹에만 접근을 줬다고 소개한다.
+- 같은 메일의 나머지 꼭지: AI-ready 운영모델, 엘리트 선수·코치의 고성과 원칙, Global Farmer Insights 2026(농민 5,500명 설문), 'Strategy in the age of arenas', 사이버보안 속도 격차, agentic transformation office 등이 소개된다.
 
 ## 자세히
 
-이 메일은 월간 뉴스레터로, 각 기사의 제목과 한두 문장 소개, 링크 문구만 있다. 14개 트렌드의 이름과 구체적 내용, 수치는 본문에 없으므로 이 노트에서 확인할 수 없다. 트렌드 목록이 필요하면 'Explore 2026 tech breakthroughs' 링크가 가리키는 보고서 원문을 읽어야 한다.
+방법론은 여섯 가지 지표로 구성된다. 검색 쿼리, 뉴스 기사, 특허, 연구 논문, 주식 투자, 인재 수요를 트렌드별로 0~1 점수로 지수화한다. innovation score는 특허와 논문을 합친 것이고, interest score는 언론 언급과 검색을 합친 것이다. 여기에 전문가 인터뷰로 기업 단위 도입 점수(1~5점)를 매긴다. 원문은 interest score가 의도적인 홍보로 부풀려질 수 있고 지표들이 방향성 지표일 뿐이라고 스스로 인정한다.
+
+인재 수요에서는 두 부류가 나뉜다. 연결성, 사이버보안, 에너지, 생명과학, 모빌리티는 채용 공고의 절반 넘게가 R&D 외 직무(관리, 운영, 영업·마케팅)여서 상용화 단계로 접어든 것으로 해석된다. 반면 AI 관련 4개 트렌드와 application-specific semiconductors는 공고의 75% 넘게가 R&D여서 아직 초기 단계로 본다.
+
+원문은 AI의 속도가 오히려 한계라고 짚는다. 바이오파마에서는 AI가 수천 개의 신약 후보를 제안해도 wet-lab 검증, 임상시험, 규제 심사의 시간은 줄이지 못한다. 소프트웨어에서는 코드 생성이 사람의 검토·테스트·배포 속도를 앞질러 취약한 코드가 쌓인다. 소재 분야에서는 유망 화합물이 합성·검증 속도보다 빨리 나온다. physical AI는 제조·물류에서 먼저 도입되고, 이후 병원, 건설 현장, 농장, 도시 인프라로 확장될 것으로 전망한다.
+
+입력된 원문에는 14개 트렌드 각각의 상세 분석은 없고 개요·방법론·다섯 가지 주제만 담겨 있다. 또한 수집 요약이 말한 '잘림'과 달리 메일 본문과 링크 기사 모두 실제로 읽을 수 있었다.
 
 ## 왜 골랐나
 
-기술경영·기술정책 연구 쪽에서는 연례 기술 트렌드 보고서의 14개 트렌드 분류가 참고가 될 수 있다. AI 에이전트 개발 쪽에서는 'agentic transformation office'와 AI 대응 운영 모델 기사가 맞닿고, 반도체 기사('The $2.3 trillion horizon')와 스마트 레일 인프라 기사도 제목상 관련이 있다. 다만 모두 제목과 소개 문구 수준이다.
+기술혁신·특허·기술경영 연구 관점에서는 특허·논문·투자·인재 수요를 결합해 기술 트렌드를 지수화하는 방법론이 참고할 만하다. 원문 스스로 interest score의 왜곡 가능성을 인정한 점도 방법론 비판의 소재가 된다. 또한 physical AI가 도시 인프라로 확장된다는 전망과 AI 에이전트(agentic AI, agentic software development)를 기업 운영모델 변화의 핵심으로 보는 시각은 스마트시티 및 AI 에이전트 개발과 맞닿는다. 데이터센터 전력·변압기 병목은 기술정책 이슈로 연결된다.

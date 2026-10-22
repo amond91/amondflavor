@@ -1,33 +1,39 @@
 ---
 title: "AI is changing work. Now it has to change the organization"
 date: "2026-10-13"
-description: "McKinsey Quarterly 글 'AI is changing work. Now it has to change the organization'의 소개 메일입니다. 기업용 AI 1단계가 사람들에게 강력한 도구를 쥐여 주었다면, agentic AI의 더 큰 기회를 잡으려면 리더가 조직의 형태 자체를 다시 생각해야 한다고 주장합니다."
+description: "McKinsey는 agentic AI가 인간의 역량, 전문성, 조정이라는 조직 설계의 세 가지 근본 제약을 바꾸고 있다고 봅니다. 개인 생산성 향상을 기업 가치로 연결하려면 업무 설계, 인재 체계, 변화 메커니즘, 책임 체계를 함께 재설계해야 한다고 주장합니다."
 category: "경영·조직·일"
-tags: ["McKinsey-Quarterly", "agentic-AI", "조직-재설계", "AI-reinvention", "기업-AI-도입"]
+tags: ["agentic-AI", "조직-설계", "orchestration-chart", "agentic-mission-factory", "AI-high-performer", "인재-체계"]
 source: "뉴스레터"
-coverage: "summary-only"
+coverage: "partial"
 ---
 
 > 📌 2026-10-13 · 뉴스레터
-> 근거: 메일 본문
+> 근거: 링크 기사(브라우저) + 메일 본문
 
 ## 한 줄 요약
 
-McKinsey Quarterly 글 'AI is changing work. Now it has to change the organization'의 소개 메일입니다. 기업용 AI 1단계가 사람들에게 강력한 도구를 쥐여 주었다면, agentic AI의 더 큰 기회를 잡으려면 리더가 조직의 형태 자체를 다시 생각해야 한다고 주장합니다.
+McKinsey는 agentic AI가 인간의 역량, 전문성, 조정이라는 조직 설계의 세 가지 근본 제약을 바꾸고 있다고 봅니다. 개인 생산성 향상을 기업 가치로 연결하려면 업무 설계, 인재 체계, 변화 메커니즘, 책임 체계를 함께 재설계해야 한다고 주장합니다.
 
 ## 핵심
 
-- 메일은 McKinsey People & Organization Practice의 글로벌 리더 Alexis Krivkovich와 Ulf Schrader 명의로 발송된 McKinsey Quarterly 신규 글 안내입니다.
-- 핵심 주장: 기업용 AI의 첫 단계는 사람들에게 강력한 새 도구를 쥐여 준 것이었고, agentic AI에서 더 큰 기회를 얻으려면 조직의 형태(shape of the organization) 자체를 재고해야 합니다.
-- 글의 부제는 'Unpack 4 shifts for AI reinvention'으로, AI 재창조(reinvention)를 위한 4가지 전환을 다룹니다. 다만 메일에는 4가지 전환의 구체적 내용이 없습니다.
-- 함께 읽을 글로 'The state of AI in 2026: On the road to ROI'와 'From adoption to impact: Three horizons of AI transformation'이 추천되어 있습니다.
+- 2026 state of AI 서베이에서 응답자의 80%는 AI가 개인 생산성을 높였다고 답했습니다. 반면 EBIT에 긍정적 영향을 보고한 곳은 37%였고, AI high performer는 6%였습니다. high performer의 거의 3/4은 워크플로를 크게 재설계했고, 그 외 조직은 1/4이었습니다.
+- AI readiness 연구에서 '재창조(reinvention)' 단계에 도달한 조직은 11%였습니다. 응답자의 70%는 개인적으로 AI 준비가 되어 있다고 했지만, 조직이 agentic 미래를 위한 전환을 할 준비가 되었다고 답한 리더는 27%였습니다.
+- 네 가지 전환을 제시합니다. (1) 역할·기능이 아니라 성과(outcome) 중심으로 일을 조직하기, (2) 인간과 AI가 섞인 업무에 맞게 인재 체계를 재편하기, (3) 변화가 누적되는 메커니즘 만들기, (4) 전환에 명확한 권한과 책임을 부여하기.
+- 조직 설계는 사람과 agent 중 누가 어떤 성과를 위해 모이고, 무엇을 맡고, 어떤 핸드오프가 남는지를 정하는 orchestration 문제가 됩니다. 이를 드러내는 도구로 'orchestration chart'를 제안합니다. 한 사례에서는 8~10명 pod가 agent 지원을 받는 4~6명 하이브리드 팀으로 바뀌었습니다. 조정 역할(coordinator roles)은 최근 5년간 라인 역할보다 약 1.5~2.0배 빠르게 늘었습니다.
+- 인재 측면에서는 AI가 신입 수준 업무를 가져가면 오늘의 생산성 이득이 내일의 판단력 공백(judgment gap)이 될 수 있다고 경고합니다. 중간관리자 중심의 승진 경로도 약해질 수 있어서, 장인적 숙련·판단·human–agent orchestration을 보상하는 경력 경로가 필요하다고 봅니다. MGI 연구에 따르면 새 일로의 이동 가능성은 skill adjacency에 크게 좌우됩니다.
+- 조직 신뢰가 중요합니다. 조직이 AI로 일이 바뀌는 사람들을 지원할 것이라는 신뢰는 모든 AI 성숙 단계에서 기업 가치와 연관되어 있었습니다.
+- 실행 모델로 'agentic mission factory'를 제안합니다. 책임 있는 senior leader 아래에서 mission(예: 대출 승인 가속, 클레임 누수 감소)을 정하고, 하이브리드 workflow를 재설계하고, agent와 통제 장치를 만들고, 재사용 자산을 남기는 cross-functional 조직입니다. 이는 기존 'digital factory' 모델의 확장입니다.
+- 함께 수집된 The state of AI 서베이 기사에 따르면 AI가 전사적으로 확산 중이라고 답한 조직은 44%로, 1년 전 38%에서 늘었습니다. EBIT 기여를 보고한 비율은 37%로 변화가 없었습니다.
 
 ## 자세히
 
-받은 원문은 뉴스레터 메일 본문뿐이며, 서식과 링크 문구를 빼면 실질 내용은 제목, 두 문장짜리 소개문, 'Unpack 4 shifts for AI reinvention'이라는 부제, 관련 글 두 건의 제목이 전부입니다. 4가지 전환이 무엇인지, 수치나 사례가 있는지는 확인할 수 없습니다.
+이 글의 핵심 논지는 AI 도입과 AI 가치 창출 사이에 간극이 있다는 것입니다. 개인은 이미 생산성 향상을 체감하지만, 워크플로·의사결정권·인센티브·관리 방식이 그대로이면 기업 수준의 재무 성과로 이어지지 않는다고 봅니다. 따라서 AI 도구 추가나 업무 자동화를 넘어 역할, 워크플로, 운영 모델을 함께 재설계해야 한다고 주장합니다.
 
-수집 단계 요약에 있던 '역할·의사결정 체계의 재편' 같은 세부 논지는 메일 본문에 직접 나오지 않습니다. 본문에서 확인되는 것은 도구 도입 중심의 1단계와 조직 형태의 재고가 필요한 agentic AI 단계라는 구분뿐입니다. 세부 내용은 McKinsey Quarterly 원문에서 확인해야 합니다.
+운영 모델 부분에서는 '성과에서 출발해 사람과 agent를 조합한다'는 논리가 중심입니다. 단일한 정답 구조는 없고, 공통점은 end-to-end로 일을 조직하고 불필요한 핸드오프를 줄이며 우선순위가 바뀔 때 의사결정과 자원을 빠르게 옮기는 것이라고 합니다. 원문은 agent 자율성, 접근 권한, 감독, 에스컬레이션 같은 리스크 통제가 업무 설계 안에 들어가야 한다고 강조합니다. 회의의 목적도 정보 전달에서 판단력·합의·신뢰 구축으로 옮겨 간다고 설명합니다. 다만 조직 평탄화는 조정 기능의 손실을 더 나은 정보, 명확한 의사결정권, 강한 인간 판단이 대체할 때만 가치를 낸다는 단서를 붙입니다.
+
+본문 곳곳에 각 전환별 'Concrete markers'와 리더용 6개 질문 목록이 있다고 되어 있으나, 수집된 텍스트에는 그 항목들이 빠져 있습니다. 또한 Exhibit 1~3의 도표도 주석만 있고 수치는 확인할 수 없습니다. 사례 기업(제품 개발 조직, 기술 기업의 인재 마켓플레이스, 금융기관, 생명과학 기업)은 모두 익명입니다. 수치와 사례는 McKinsey 자체 서베이와 고객 작업에 근거한 것입니다.
 
 ## 왜 골랐나
 
-AI 에이전트 개발 및 기술경영 관점에서, 도구 도입 단계와 agentic AI에 맞춘 조직 재설계 단계를 구분하는 프레임이 참고할 만합니다. 다만 구체적 내용은 원문 확인이 필요합니다.
+AI 에이전트 개발과 기술경영·조직 연구에 직접 닿습니다. orchestration chart, agent 자율성·권한·감독 설계, mission factory 같은 개념은 agent 시스템을 조직 설계 관점에서 볼 때 참고가 됩니다. 개인 생산성과 기업 가치 사이의 간극, 신입 업무 대체에 따른 전문성 형성 문제, 조정 비용 감소 같은 논점은 기술혁신·기술경영 연구의 소재가 될 수 있습니다.
