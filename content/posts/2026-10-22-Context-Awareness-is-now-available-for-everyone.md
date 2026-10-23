@@ -1,11 +1,35 @@
 ---
 title: "Context Awareness is now available for everyone"
 date: "2026-10-22"
-description: ""
+description: "Aside가 'Context Awareness' 기능을 모든 사용자에게 공개했다. 사용자가 읽고 입력한 내용을 캡처해 두었다가 나중에 불러 쓰며, \"handle this\"라고만 해도 사용자의 방식대로 처리한다고 한다."
 category: "AI 에이전트·모델"
-tags: []
+tags: ["Aside", "Context-Awareness", "AI-에이전트", "온디바이스", "맥락-기억"]
 source: "뉴스레터"
+coverage: "full"
 ---
 
 > 📌 2026-10-22 · 뉴스레터
-> 근거: 수집 때 요약만 (원문을 받지 못함) — ⚠️ Gmail 본문: GMAIL_FETCH_MESSAGE_BY_THREAD_ID: SSRF guard blocked request: connection to unvalidated host 172.217.113.4:443 (validate
+> 근거: 메일 본문
+
+## 한 줄 요약
+
+Aside가 'Context Awareness' 기능을 모든 사용자에게 공개했다. 사용자가 읽고 입력한 내용을 캡처해 두었다가 나중에 불러 쓰며, "handle this"라고만 해도 사용자의 방식대로 처리한다고 한다.
+
+## 핵심
+
+- Aside는 사용자가 읽고 입력하는 내용을 캡처해 두었다가 나중에 다시 꺼내 쓴다.
+- 매번 작업이나 워크플로를 설명할 필요 없이 "handle this"라고 말하면 사용자가 하던 방식대로 처리한다고 한다.
+- 캡처한 맥락은 사용자의 기기에 저장되고, CPU와 메모리는 조금만 쓴다고 한다.
+- 설정(⌘ + ,) > Context Awareness에서 설정할 수 있다.
+- macOS와 Windows 모두에서 쓸 수 있다.
+- 발신자는 Aside의 Chanhee이며, 써 보고 의견을 알려 달라는 안내로 끝난다.
+
+## 자세히
+
+짧은 제품 공지 메일이다. 기능의 핵심은 사용자가 화면에서 읽고 입력한 내용을 기록해 두었다가 이후 작업에서 맥락으로 활용하는 것이다. 이를 통해 사용자가 작업 배경을 반복해서 설명하지 않아도 되게 한다는 것이 메일의 설명이다.
+
+메일은 데이터가 기기에 저장된다고만 밝힌다. 어떤 범위의 내용을 캡처하는지, 어떻게 보호하는지, 외부 서버로 전송되는지는 적혀 있지 않다. 성능 수치도 'a small amount of CPU and memory'라는 표현뿐이고 구체적인 수치는 없다.
+
+## 왜 골랐나
+
+AI 에이전트 개발 관점에서, 사용자의 읽기·입력 이력을 온디바이스에 저장해 에이전트의 작업 맥락으로 삼는 방식의 사례다.

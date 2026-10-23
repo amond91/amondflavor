@@ -1,11 +1,36 @@
 ---
 title: "the startups chasing AI fakes"
 date: "2026-10-16"
-description: ""
+description: "CB Insights는 OpenAI가 적발한 이란발 가짜 기자 사례를 계기로, AI 위조(딥페이크 등)를 잡는 VC 투자 스타트업 42곳의 시장 지도를 만들어 분석했습니다. 주요 구매자는 사기 방지팀이며, 탐지 기능은 기존 제품 안으로 흡수되고 있고 인수·후속 투자도 임박했다고 봅니다."
 category: "기술경영·산업"
-tags: []
+tags: ["딥페이크-탐지", "AI-사기", "Incode", "시장-지도", "CB-Insights", "M&A"]
 source: "뉴스레터"
+coverage: "full"
 ---
 
 > 📌 2026-10-16 · 뉴스레터
-> 근거: 수집 때 요약만 (원문을 받지 못함) — ⚠️ Gmail 본문: GMAIL_FETCH_MESSAGE_BY_THREAD_ID: SSRF guard blocked request: connection to unvalidated host 172.217.117.4:443 (validate
+> 근거: 메일 본문
+
+## 한 줄 요약
+
+CB Insights는 OpenAI가 적발한 이란발 가짜 기자 사례를 계기로, AI 위조(딥페이크 등)를 잡는 VC 투자 스타트업 42곳의 시장 지도를 만들어 분석했습니다. 주요 구매자는 사기 방지팀이며, 탐지 기능은 기존 제품 안으로 흡수되고 있고 인수·후속 투자도 임박했다고 봅니다.
+
+## 핵심
+
+- OpenAI가 지난주 이란에서 운영된 가짜 기자 7명을 적발했다고 밝혔습니다. 그중 'Ervin Hoskins'는 이란 전쟁에 관한 기고문을 썼고, 플로리다의 작은 신문이 한 편을 실었으며 ChatGPT가 원고를 다듬었습니다.
+- 구매자는 사기 방지팀입니다. Equifax와 Experian이 모두 Incode(신원 확인·딥페이크 및 합성 신원 탐지)를 라이선스하고, Incode는 미국 10대 은행 중 8곳을 고객으로 둔다고 주장합니다. Truepic은 Verisk 보험 청구 소프트웨어에 내장됐습니다.
+- 자금 흐름: 2025년 1월 이후 지도상 기업들은 26건의 딥 계약으로 약 $125M을 조달했고, 그중 음성·신원 위조를 잡는 사기 대응 기업이 $74M을 받았습니다. 최대 라운드는 Incode의 $37M이며, Capital One은 GetReal에, BNY는 Reality Defender에 투자했습니다.
+- 2023년 이후 설립된 11개사 중 7곳은 은행·보험사 또는 통화·화상회의 사칭 대응팀에 주로 판매합니다. 창업자 다수는 사기 업무 출신이 아니며(IdentifAI 창업자는 Yoroi에서 9년, DeepXL CEO는 북유럽 은행 변호사), 7곳 중 6곳에 기술 창업자가 있습니다.
+- 탐지가 기능으로 흡수되고 있습니다. Substack은 Pangram 기반 AI 글 탐지 버튼을 추가했고, Zoom은 Pindrop을 연락센터 소프트웨어에 넣었으며 FICO 마켓플레이스에도 5월 Pindrop이 올랐습니다. Charm Security의 AI 사기 에이전트는 3월부터 Reality Defender 탐지를 직접 호출합니다.
+- 인수 전망: Equifax는 인수한 Kount 안에서 Incode를 돌리고 있고, 7월 실적 발표에서 신원·사기를 인수 대상 4개 영역 중 하나로 꼽았습니다. IdentifAI, DeepTrust, Scam AI, AI or Not 4곳은 예측된 펀딩 시기에 들어와 있다고 합니다.
+- 끝에 Money20/20 USA 참가 안내와 CB Insights 무료 체험 홍보가 있습니다. 'Ervin'은 인수 대상이 아니라는 농담으로 마무리합니다.
+
+## 자세히
+
+뉴스레터는 가짜 기자 사례를 도입부로 삼고, 실제 본론은 CB Insights 데이터로 만든 'AI 콘텐츠 탐지' 미니 시장 지도입니다. 네 가지 관찰(구매자, 신규 창업자, 기능화, 다음 딜)로 구성됩니다.
+
+수치는 모두 CB Insights 자체 데이터와 기업의 주장에 근거합니다. 시장 지도 이미지의 세부 내용과 42개사 전체 목록은 메일 본문에 텍스트로 없습니다. 'Incode가 10대 은행 중 8곳에 서비스한다'는 부분은 기업 측 주장으로 명시돼 있습니다.
+
+## 왜 골랐나
+
+AI 에이전트 개발 관점에서, Charm Security의 에이전트가 Reality Defender 탐지를 도구로 직접 호출하는 사례는 에이전트가 외부 검증 기능을 연동하는 방식의 예시입니다. 또 탐지가 독립 제품에서 기존 소프트웨어의 기능으로 흡수되고 파트너십·인수로 재편되는 흐름은 기술경영·기술혁신 연구의 사례로 볼 수 있습니다.
