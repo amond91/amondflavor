@@ -28,7 +28,7 @@ OUT = ROOT / "content" / "posts"
 DEFAULT_SRC = Path(os.environ.get("PIN_SRC", Path.home() / "MyProjects/MBX_digests/pinned"))
 NEWS = Path(os.environ.get("PIN_NEWS", Path.home() / ".local/state/mbx/news.json"))  # MBX 읽음 상태 (Mac mini 에만 있다)
 
-PUBLIC_SOURCES = {"GeekNews"}
+PUBLIC_SOURCES = {"GeekNews", "YouTube"}
 PRIVATE_SOURCE_LABEL = "뉴스레터"  # 메일 출처는 계정 이름 대신 이것으로 보인다
 DROP_SECTIONS = {"수집 때 요약"}
 RENAME_SECTIONS = {"내 관심사와 닿는 점": "왜 골랐나"}
